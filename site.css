@@ -1,0 +1,74 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+.header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo h4{
+    padding-left: 20px;
+    font-size: 40px;
+    margin-left: 20px;
+    color: white;
+}
+.list{
+    list-style-type: none;
+    float: right;
+}
+.list li{
+    display: inline-block;
+    padding: 30px;
+}
+.list li a{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 2px;
+    border: 1px solid transparent ;
+    transition: 0.6s ease;
+}
+.list li a:hover{
+background-color: white;
+color: black;
+
+}
+.bdy h4{
+    text-align: center;
+    padding-top: 200px;
+    font-size: 40px;
+    font-family: sans-serif;
+    color: white;
+}
+.bdy p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.button{
+    position: absolute;
+    padding-top: 40px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 20px;
+    
+}
+.btn{
+    border: 1px solid transparent;
+    padding: 10px 50px;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: sans-serif;
+    transition: 0.6s ease;
+}
+.button :hover{
+    background-color:white;
+    color: black;
+}
